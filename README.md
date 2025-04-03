@@ -1,9 +1,9 @@
 利用BPB Panel 部署Cloudflare Workers 或 Pages 的代理面板项目，可以轻松建立免费 VPN，因CF对代理项目审查较严格，所以需要需要对源码进行自定义加密混淆，生成不同的混淆代码，绕过CF的限制。
 
-准备工作
+#准备工作
 Github帐号；cloudflare账号；域名（收费或免费域名）
 
-Github部署
+#Github部署
 1. 新建github仓库:把BPB panel项目代码同步到仓库。
 
 2. 配置github Actions: 在仓库目录下创建.github/workflows文件夹，并创建Obfuscate.yml文件。
