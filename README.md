@@ -6,9 +6,10 @@
 Github帐号；cloudflare账号；域名（收费或免费域名）
 
 ## Github部署
-1. 新建github仓库:把BPB panel项目代码同步到仓库。
+1. 新建github仓库:把`BPB panel`项目代码同步到仓库。
 
-2. 配置github Actions: 在仓库目录下创建.github/workflows文件夹，并创建Obfuscate.yml文件。
+2. 配置github Actions: 在仓库目录下创建`.github/workflows`文件夹，并创建`Obfuscate.yml`文件。
+   
 ```
 name: Build Obfuscate BPB Panel
 
@@ -65,12 +66,12 @@ jobs:
           push_options: '--set-upstream'
 ```
 
-# **Github仓库通过Obfuscate.yml自动下载BPB源代码，并执行混淆。**
+# **Github仓库通过`Obfuscate.yml`自动下载BPB源代码，并执行混淆。**
 
 ## Cloudflare 部署
-•创建pages：点击workers和pages，选择pages部署。连接github仓库，选择新建的项目仓库，然后点击部署。
+•创建`pages`：点击`workers`和`pages`，选择`pages`部署。连接`github`仓库，选择新建的项目仓库，然后点击部署。
 
-•绑定自定义域名：以防止page分配的域名被屏蔽。
+•绑定自定义域名：以防止`pages`分配的域名被屏蔽。
 
 •设置变量：`UUID`，`TR_PASS`，`PROXYIP`
 
@@ -105,3 +106,8 @@ PROXYIP：[点击进入一](https://ipdb.030101.xyz/bestproxy/)   [点击进入�
 
 ## 博 客：www.kekehub.com
 ## Github: https://github.com/kelekekou8
+
+![演示](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+
