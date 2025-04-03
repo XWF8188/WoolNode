@@ -70,7 +70,7 @@ jobs:
 
 •绑定自定义域名：以防止page分配的域名被屏蔽。
 
-•设置变量：UUID，PROXYIP, TR_PASS
+•设置变量：UUID，TR_PASS，PROXYIP
 
 ## 变量说明
 
