@@ -54,7 +54,7 @@ jobs:
           --self-defending false \
           --simplify true
 
-      - name: 提交更改
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
