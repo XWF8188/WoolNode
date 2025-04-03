@@ -66,7 +66,7 @@ jobs:
           push_options: '--set-upstream'
 ```
 
-# **Github仓库通过`Obfuscate.yml`自动下载BPB源代码，并执行混淆。**
+## **Github仓库通过`Obfuscate.yml`自动下载BPB源代码，并执行混淆。**
 
 ## Cloudflare 部署
 •创建`pages`：点击`workers`和`pages`，选择`pages`部署。连接`github`仓库，选择新建的项目仓库，然后点击部署。
