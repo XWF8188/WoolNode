@@ -7,7 +7,7 @@ Github帐号；cloudflare账号；域名（收费或免费域名）
 1. 新建github仓库:把BPB panel项目代码同步到仓库。
 
 2. 配置github Actions: 在仓库目录下创建.github/workflows文件夹，并创建Obfuscate.yml文件。
-
+```
 name: Build Obfuscate BPB Panel
 
 on:
@@ -54,7 +54,7 @@ jobs:
           --self-defending false \
           --simplify true
 
-      - name: Commit changes
+      - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
@@ -70,11 +70,13 @@ Github仓库通过Obfuscate.yml自动下载BPB源代码，并执行混淆。
 •设置变量：UUID，PROXYIP, TR_PASS
 •绑定KV命名空间：名称随便但不能含有bpb等敏感词
 •重试部署pages
+
 # BPB面板设置
 •部署成功后，打开浏览器输入:https://[自定义域名]或者你的项目地址,后面加上/panel检查是否能正常访问BPB面板.
 •修改BPB面板密码
 •配置BPB面板参数
-# 常用IP获取方式
-cleanIP/优选IP：[地址1](https://www.wetest.vip/page/cloudflare/address_v4.html)  [地址2](https://ipdb.030101.xyz/bestcf/) [地址3](https://mrxn.net/BESTCFDOMAIN)
 
-PROXYIP：[点击进入一](https://ipdb.030101.xyz/bestproxy/) [点击进入二](https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/)
+# 常用IP获取方式
+cleanIP/优选IP：[地址1](https://www.wetest.vip/page/cloudflare/address_v4.html)    [地址2](https://ipdb.030101.xyz/bestcf/)   [地址3](https://mrxn.net/BESTCFDOMAIN)
+
+PROXYIP：[点击进入一](https://ipdb.030101.xyz/bestproxy/)   [点击进入二](https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/)
