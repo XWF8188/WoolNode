@@ -75,5 +75,6 @@ Github仓库通过Obfuscate.yml自动下载BPB源代码，并执行混淆。
 •修改BPB面板密码
 •配置BPB面板参数
 # 常用IP获取方式
-cleanIP/优选IP：[地址1](https://www.wetest.vip/page/cloudflare/address_v4.html)  地址2  地址3  地址4
-PROXYIP：点击进入1  点击进入2
+cleanIP/优选IP：[地址1](https://www.wetest.vip/page/cloudflare/address_v4.html)  [地址2](https://ipdb.030101.xyz/bestcf/) [地址3](https://mrxn.net/BESTCFDOMAIN)
+
+PROXYIP：[点击进入一](https://ipdb.030101.xyz/bestproxy/) [点击进入二](https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/)
