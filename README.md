@@ -111,3 +111,5 @@ PROXYIP：[点击进入一](https://ipdb.030101.xyz/bestproxy/)   [点击进入�
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
