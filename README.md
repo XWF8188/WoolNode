@@ -72,6 +72,15 @@ jobs:
 
 •设置变量：UUID，PROXYIP, TR_PASS
 
+## 变量说明
+
+| 变量名 | 示例 | 必填 | 备注 | 
+|--|--|--|--|
+| DOH | `dns.google` |❌| 设置上游DoH服务（默认：`cloudflare-dns.com`） |
+| TOKEN | `dns-query` |❌| 设置请求DoH服务路径（默认：`/dns-query`） |
+| URL | `https://www.baidu.com/` |❌| 主页伪装（设为`nginx`则伪装为nginx默认页面） |
+| URL302 | `https://t.me/CMLiussss` |❌| 主页302跳转（与`URL`变量同时存在时优先执行`URL302`）|
+
 •绑定KV命名空间：名称随便但不能含有bpb等敏感词
 
 •重试部署pages
