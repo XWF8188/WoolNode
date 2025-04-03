@@ -61,6 +61,7 @@ jobs:
           commit_message: ':arrow_up: update latest bpb panel'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
+```
 Copy
 Github仓库通过Obfuscate.yml自动下载BPB源代码，并执行混淆。
 
